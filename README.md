@@ -4,7 +4,7 @@ A react wrapper for [cowsay-browser](https://github.com/bushmango/cowsay-browser
 
 ## Usage
 
-```js
+```jsx
 <Cowsay>I'm a cow!</Cowsay>
 ```
 
