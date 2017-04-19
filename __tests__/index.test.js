@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Starter from '../src/index';
+import Cowsay from '../src/index';
 
-test('Starter has text', () => {
+test('Cowsay has text', () => {
 
-  const starter = shallow(
-    <Starter />
+  const cowsay = shallow(
+      <Cowsay>I am a cow</Cowsay>
   );
 
-  expect(starter.text()).toEqual('React Component Boilerplate');
+  expect(cowsay.text()).toEqual(expect.stringContaining('I am a cow'));
   
 });
