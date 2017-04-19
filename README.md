@@ -2,9 +2,17 @@
 
 A react wrapper for [cowsay-browser](https://github.com/bushmango/cowsay-browser)
 
+## Install
+
+```
+npm -i react-cowsay --save
+```
+
 ## Usage
 
 ```jsx
+import Cowsay from 'react-cowsay'
+
 <Cowsay>I'm a cow!</Cowsay>
 ```
 
